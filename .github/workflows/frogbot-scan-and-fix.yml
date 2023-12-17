@@ -3,9 +3,7 @@ on:
   pull_request_target:
     types: [opened, synchronize]
   push:
-    branches:
-      - "main"
-      - "master"
+    branches: ["main"]
 permissions:
   pull-requests: write
   contents: read
